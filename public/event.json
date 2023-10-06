@@ -1,0 +1,61 @@
+[
+      {
+        "event_id": 1,
+        "event_name": "Weddings",
+        "image_url": "https://i.ibb.co/Lgy8sSP/wedding.jpg",
+        "price": 200,
+        "short_description": "Weddings in Bangladesh take several days and are very elaborate. Typically, wedding customs in Bangladesh take three days from engagement to post wedding rituals.",
+        "long_description": "Having a wedding vision in your head is one thing, but understanding how to effectively turn your ideas into a cohesive theme while also communicating your style to your wedding vendors is a different story. We’ve taken some of the most popular words to describe your wedding and broken them down into easy-to-understand definitions, so you can pinpoint your exact style in order to design the wedding of your dreams! Read more about the most popular wedding adjectives and aesthetics right here.",
+        "beach":"Whether or not youre actually getting married at the beach, this wedding style is all about pairing nature-inspired details (seashells, driftwood, tropical flowers, etc.) with laid-back elements to create a casual, easygoing aesthetic. If youre opting for beach wedding style, try to embody the carefree vibes that are synonymous with a seaside vacation. Beach style is also a fun excuse to try out non-traditional details, like mermaid wedding ideas, nautical details, or a modern tropical theme.",
+        "tropical":"Bright colors, eye-catching details, and playful elements like citrus fruits and oversized greenery are all elements of tropical wedding stye. As we mentioned, this is a popular choice if you're getting married at the beach or having a destination wedding, but unlike classic beach wedding or nautical style, it's also much easier to recreate even if your venue isn't located near the water. This wedding style is more about the overall vibe, so make sure you have plenty of island-inspired cocktails and music ready to go! ",
+        "bohemian":"This style is for the hippies (or hippies-at-heart) of the world. Bohemian wedding style is best known for flower crowns, oversized bouquets, mismatched bridesmaid dresses, and unexpected decor pieces  like giant dreamcatcher backdrops. While this style is commonly tied to outdoor venues (like a wildflower field or lush forest), its relatively versatile for indoor locations, too, such as a barn, industrial space, greenhouse, or art gallery.",
+        "classic":"Classic wedding style is ideal if youre looking to evoke timeless elegance and the utmost sophistication on your wedding day. This style steers away from over-the-top trends and flashy details, opting instead for a perfectly-coordinated aesthetic with decor that is chic and refined. Achieve classic wedding style through matching centerpieces, fine china, high-end linens, and a carefully-chosen wedding color palette. Venues like historic estates, ballrooms, and country clubs are naturally suited for classic wedding style."
+
+        
+        
+      },
+
+      {
+        "event_id": 2,
+        "event_name": "Birthday Parties",
+        "image_url": "https://i.ibb.co/ZBn4FLp/group-friends-holding-prop-enjoying-birthday-party.jpg",
+        "price": 300,
+        "short_description": "We celebrate birthdays to remember, acknowledge, and appreciate the life of a person who has been born. Birthdays are about celebrating the life of someone. They are not about buying gifts or throwing a party for family and friends. Rather, they are about celebrating a person's life."
+      },
+
+      {
+        "event_id": 3,
+        "event_name": "Anniversaries",
+        "image_url": "https://i.ibb.co/sPf6d60/top-view-decoration-with-balloons-frame.jpg",
+        "price": 450,
+        "short_description": "An anniversary is the date on which an event took place or an institution was founded in a previous year, and may also refer to the commemoration or celebration of that event."
+      },
+
+      {
+        "event_id": 4,
+        "event_name": "Engagement Parties",
+        "image_url": "https://i.ibb.co/pZNRW0Y/front-view-smiley-people-posing-wedding.jpg",
+        "price": 320,
+        "short_description": "An engagement party, also known as a betrothal party or fort, is a party held to celebrate a couple's recent engagement and to help future wedding guests to get to know one another."
+        
+      },
+
+      {
+        "event_id": 5,
+        "event_name": "Retirement Parties",
+        "image_url": "https://i.ibb.co/hH2q6gq/elderly-people-celebrating-their-birthday.jpg",
+        "price": 177,
+        "short_description": "Not many people like getting old, but a retirement party is a great way to celebrate the retiree's accomplishments and to mark their transition into a more relaxing lifestyle."
+       
+      },
+
+      {
+        "event_id": 6,
+        "event_name": "Baby shower",
+        "image_url": "https://i.ibb.co/RvqjGDD/aboodi-vesakaran-ox-P3bl3x-QPI-unsplash.jpg",
+        "price": 420,
+        "short_description": "A baby shower is a party centered on gift-giving to celebrate the delivery or expected birth of a child, and the transformation of a woman into a mother."
+        
+      }
+    ]
+  
