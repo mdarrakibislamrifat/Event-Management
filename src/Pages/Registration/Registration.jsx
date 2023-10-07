@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import { FaGoogle } from 'react-icons/fa';
 import { useContext, useState } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
-import toast from "react-hot-toast";
 import { GoogleAuthProvider } from "firebase/auth";
 
 const provider = new GoogleAuthProvider();
@@ -11,18 +10,21 @@ const Registration = () => {
 const {createUser,googleSignIn}=useContext(AuthContext);
 const [error,setError]=useState('');
 
+
 const handleRegister=e=>{
   e.preventDefault();
   const email=e.target.email.value;
   const password=e.target.password.value;
  createUser(email,password)
  .then(result=>{
-  toast.success('Successfully Register!')
+  console.log(result.user)
  })
  .catch(error=>{
   setError(error.message)
  })
 }
+
+
 
 const handleGoogle=()=>{
   googleSignIn(provider)
