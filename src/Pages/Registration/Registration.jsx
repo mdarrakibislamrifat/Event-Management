@@ -3,25 +3,34 @@ import { FaGoogle } from 'react-icons/fa';
 import { useContext, useState } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
 import { GoogleAuthProvider } from "firebase/auth";
+import toast, { Toaster } from "react-hot-toast";
 
 const provider = new GoogleAuthProvider();
 const Registration = () => {
 
 const {createUser,googleSignIn}=useContext(AuthContext);
 const [error,setError]=useState('');
+const [registerError,SetRegisterError]=useState('')
 
 
 const handleRegister=e=>{
   e.preventDefault();
   const email=e.target.email.value;
   const password=e.target.password.value;
- createUser(email,password)
+  setError('')
+  SetRegisterError('')
+ if(!/^(?=.*[A-Z])(?=.*[!@#$%^&*(),.?":{}|<>])(?=.{6,}).*$/.test(password)){
+  toast.error("Please provide more than 6 characters,one capital letter and a special character")
+ }
+ else{
+  createUser(email,password)
  .then(result=>{
-  console.log(result.user)
+  toast.success('Successfully Register!')
  })
  .catch(error=>{
   setError(error.message)
  })
+ }
 }
 
 
@@ -40,6 +49,10 @@ const handleGoogle=()=>{
     return (
       
         <div>
+          <Toaster
+  position="top-center"
+  reverseOrder={false}
+/>
           <p className="text-center text-red-600">{error}</p>
           <div className="relative flex flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none items-center">
         <h4 className="block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">

@@ -1,18 +1,21 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
+import toast from "react-hot-toast";
 
 
 const Login = () => {
 
 const {signIn}=useContext(AuthContext);
 const location=useLocation();
-const navigate=useNavigate()
+const navigate=useNavigate();
+const [error,setError]=useState('')
 
 const handleSignIn=e=>{
   e.preventDefault();
   const email=e.target.email.value;
   const password=e.target.password.value;
+  setError('')
   signIn(email,password)
   .then(result=>{
     console.log(result.user)
@@ -20,7 +23,7 @@ const handleSignIn=e=>{
     navigate(location?.state? location.state : '/')
   })
   .catch(error=>{
-    console.log(error)
+    setError(error.message)
   })
 
 }
@@ -33,7 +36,11 @@ const handleSignIn=e=>{
 
 
     return (
-        <div className="relative flex flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none items-center">
+        <div>
+          <div>
+            <p className="text-center text-red-500">{error}</p>
+          </div>
+          <div className="relative flex flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none items-center">
   <h4 className="block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
     Sign In
   </h4>
@@ -82,6 +89,7 @@ const handleSignIn=e=>{
     </p>
   </form>
 </div>
+        </div>
     );
 };
 

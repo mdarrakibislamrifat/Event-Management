@@ -57,6 +57,34 @@ const Navbar = () => {
           Register
         </NavLink>
       </li>
+      <li>
+        <NavLink
+          to="/About"
+          className={({ isActive, isPending }) =>
+            isPending
+              ? "pending"
+              : isActive
+              ? "text-red-500 underline font-bold"
+              : ""
+          }
+        >
+          About
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/contact"
+          className={({ isActive, isPending }) =>
+            isPending
+              ? "pending"
+              : isActive
+              ? "text-red-500 underline font-bold"
+              : ""
+          }
+        >
+          Contact
+        </NavLink>
+      </li>
     </>
   );
 
