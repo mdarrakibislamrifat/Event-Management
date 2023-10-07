@@ -13,7 +13,7 @@ const Home = () => {
                 <Banner></Banner>
                 <h2 className="text-3xl font-bold text-center my-10 underline mb-10">Our Services</h2>
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 space-y-8 ">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 ">
                 {
                     cards.map(card=><Card key={card.event_id} card={card}></Card>)
                 }

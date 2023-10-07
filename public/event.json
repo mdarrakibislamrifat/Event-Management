@@ -4,6 +4,8 @@
         "event_name": "Weddings",
         "image_url": "https://i.ibb.co/Lgy8sSP/wedding.jpg",
         "price": 200,
+        "bg_color":"rgba(255, 68, 74, 0.15)",
+        "text_color":"#FF444A",
         "short_description": "Weddings in Bangladesh take several days and are very elaborate. Typically, wedding customs in Bangladesh take three days from engagement to post wedding rituals.",
         "long_description": "Having a wedding vision in your head is one thing, but understanding how to effectively turn your ideas into a cohesive theme while also communicating your style to your wedding vendors is a different story. We’ve taken some of the most popular words to describe your wedding and broken them down into easy-to-understand definitions, so you can pinpoint your exact style in order to design the wedding of your dreams! Read more about the most popular wedding adjectives and aesthetics right here.",
         "beach":"Whether or not youre actually getting married at the beach, this wedding style is all about pairing nature-inspired details (seashells, driftwood, tropical flowers, etc.) with laid-back elements to create a casual, easygoing aesthetic. If youre opting for beach wedding style, try to embody the carefree vibes that are synonymous with a seaside vacation. Beach style is also a fun excuse to try out non-traditional details, like mermaid wedding ideas, nautical details, or a modern tropical theme.",
@@ -18,43 +20,79 @@
       {
         "event_id": 2,
         "event_name": "Birthday Parties",
+        "text_color":"#FF444A",
+        "bg_color":"rgba(255, 68, 74, 0.15)",
         "image_url": "https://i.ibb.co/ZBn4FLp/group-friends-holding-prop-enjoying-birthday-party.jpg",
         "price": 300,
-        "short_description": "We celebrate birthdays to remember, acknowledge, and appreciate the life of a person who has been born. Birthdays are about celebrating the life of someone. They are not about buying gifts or throwing a party for family and friends. Rather, they are about celebrating a person's life."
+        "short_description": "We celebrate birthdays to remember, acknowledge, and appreciate the life of a person who has been born. Birthdays are about celebrating the life of someone. They are not about buying gifts or throwing a party for family and friends. Rather, they are about celebrating a person's life.",
+        "long_description":"It is a day full of celebrations where children enjoy many fun activities, party with their friends and family, receive a lot of gifts and of course… make a wish as they blow the candle on their special birthday cake! These are all fun, and memorable moments, which children will remember for a long time",
+        
+        "beach":"Typically, a birthday party begins with sending out invitations to guests. Invitations can be digital or printed, and they often include the date, time, location, and RSVP information.Many parties follow a specific theme or concept, such as superheroes, princesses, tropical luau, or retro. The theme can influence the decorations, activities, and even the attire of the guests.",
+        "tropical":"The party can be held at various venues, such as homes, restaurants, parks, event halls, or specialized party venues like arcades or trampoline parks.A birthday cake is a central element. It's often customized based on the person's preferences or party theme. Other desserts, like cupcakes, cookies, or ice cream, might also be served.",
+        "bohemian":"Birthday parties usually feature a variety of food and drinks, ranging from snacks and appetizers to a main course and desserts. It could be a buffet, sit-down meal, or even a potluck, depending on the party style.Guests often receive small gifts or party favors as a token of appreciation for attending the celebration. These can be personalized based on the party theme."
       },
 
       {
         "event_id": 3,
         "event_name": "Anniversaries",
+        "bg_color":"rgba(255, 68, 74, 0.15)",
+        "text_color":"#FF444A",
         "image_url": "https://i.ibb.co/sPf6d60/top-view-decoration-with-balloons-frame.jpg",
         "price": 450,
-        "short_description": "An anniversary is the date on which an event took place or an institution was founded in a previous year, and may also refer to the commemoration or celebration of that event."
+        "short_description": "An anniversary is the date on which an event took place or an institution was founded in a previous year, and may also refer to the commemoration or celebration of that event.",
+        "long_description":"An anniversary is a date that is remembered or celebrated because a special or notable event occurred on that date in a previous year. Anniversaries can be related to various events, such as weddings, birthdays, company founding, historical events, or any other significant occurrence.These mark the date of a couple's marriage. Common milestones include the first, fifth, tenth, twentieth, etc., years.",
+        
+        "beach":"Celebrations of a person's birth, typically on an annual basis.Commemorating significant historical events, such as the founding of a nation, important battles, or significant speeches.Celebrating the time a couple has been together, often in terms of months or years.Personal milestone anniversaries mark significant achievements in an individual's life, such as overcoming addiction, reaching a career milestone, or achieving a personal goal like weight loss or sobriety. These anniversaries are deeply personal and often symbolize growth, perseverance, and positive change.",
+        "tropical":"Remembering the passing of a loved one, a tragic event, or other somber occasions.Wedding anniversaries are significant dates celebrated by married couples to honor the day they were married. These events hold sentimental value and signify the enduring commitment and love between partners. Each anniversary often has a traditional or modern theme associated with it, guiding the choice of gifts and celebrations.",
+        "bohemian":"Friendship anniversaries celebrate the anniversary of the day when friends first met or formed a significant bond. Friends may spend time together, reminisce about shared experiences, and express gratitude for the friendship. These anniversaries reinforce the value of friendship and the bonds that have been created.Dating anniversaries celebrate the anniversary of the day a couple first began dating or officially became a couple. Couples often plan a special date, exchange heartfelt gifts, or reminisce about their time together. It's a joyful occasion that allows partners to express their love and appreciation for each other."
       },
 
       {
         "event_id": 4,
         "event_name": "Engagement Parties",
+        "bg_color":"rgba(255, 68, 74, 0.15)",
+        "text_color":"#FF444A",
         "image_url": "https://i.ibb.co/pZNRW0Y/front-view-smiley-people-posing-wedding.jpg",
         "price": 320,
-        "short_description": "An engagement party, also known as a betrothal party or fort, is a party held to celebrate a couple's recent engagement and to help future wedding guests to get to know one another."
+        "short_description": "An engagement party, also known as a betrothal party or fort, is a party held to celebrate a couple's recent engagement and to help future wedding guests to get to know one another.",
+        "long_description":"The engagement process often begins with a proposal, where one partner formally asks the other for their hand in marriage. This moment is usually accompanied by a ring and a heartfelt expression of love and commitment.The proposal often involves presenting an engagement ring to the partner. The engagement ring is a symbol of the commitment and love between the couple. ",
+        
+        "beach":"Proposals are often carefully planned and executed in a meaningful and memorable location. Popular settings include places with sentimental value, beautiful landscapes, romantic getaways, or even public events surrounded by loved ones.Proposals can range from carefully orchestrated surprise events to openly planned discussions about the decision to get engaged. The approach depends on the couple's preferences and communication style.",
+        "tropical":"Upon the proposal, the other partner either accepts or declines the offer of marriage. When accepted, it signifies a mutual commitment to a future together as a married couple.After the proposal is accepted, couples typically share the news of their engagement with family, friends, and close ones. Social media and gatherings are common ways to make the announcement and celebrate the joyous occasion.",
+        "bohemian":"In some cultures, pre-wedding celebrations and ceremonies are held between the engagement and the wedding. These events vary widely and may include traditions such as engagement ceremonies, showers, and bachelor/bachelorette parties.An engagement is a beautiful and joyous step in a relationship, symbolizing the love and commitment shared by a couple as they prepare to embark on their journey towards marriage."
         
       },
 
       {
         "event_id": 5,
         "event_name": "Retirement Parties",
+        "bg_color":"rgba(255, 68, 74, 0.15)",
+        "text_color":"#FF444A",
         "image_url": "https://i.ibb.co/hH2q6gq/elderly-people-celebrating-their-birthday.jpg",
         "price": 177,
-        "short_description": "Not many people like getting old, but a retirement party is a great way to celebrate the retiree's accomplishments and to mark their transition into a more relaxing lifestyle."
+        "short_description": "Not many people like getting old, but a retirement party is a great way to celebrate the retiree's accomplishments and to mark their transition into a more relaxing lifestyle.",
+        "long_description":"Retirement parties are special events held to celebrate an individual's transition from a long and dedicated career into the next phase of life: retirement. These gatherings provide an opportunity to honor the retiree, express gratitude for their contributions, share memories, and wish them well in their future endeavors.Invitations are sent out to friends, family, colleagues, and acquaintances to inform them about the retirement party. Invitations can be sent digitally, via mail, or even as personal invitations. ",
+        
+        "beach":"Retirement parties can be held in various venues, including banquet halls, community centers, restaurants, or even the retiree's home. The venue is decorated to create a festive and celebratory atmosphere, often incorporating the retiree's favorite colors or themes related to their profession or hobbies.",
+        "tropical":"The retirement party is typically scheduled close to the retiree's last working day. The date and time are chosen to ensure that as many guests as possible can attend, often on a weekend or in the evening.Friends, colleagues, family members, and supervisors often give speeches and toasts in honor of the retiree. They share anecdotes, memories, and words of appreciation for the retiree's accomplishments and impact on the workplace and community.",
+        "bohemian":"Guests may bring gifts for the retiree, such as personalized items, plaques, or heartfelt letters expressing their gratitude and well wishes. Employers or organizations might also present a retirement gift to the retiree in recognition of their service.Entertainment at retirement parties can include music, dancing, games, or activities that reflect the retiree's interests and personality. A slideshow or video showcasing the retiree's career highlights and life achievements is often a touching addition.The event typically concludes with closing remarks and thank-you messages from the retiree, expressing gratitude to everyone who attended and supported them throughout their career."
        
       },
 
       {
         "event_id": 6,
         "event_name": "Baby shower",
+        "bg_color":"rgba(255, 68, 74, 0.15)",
+        "text_color":"#FF444A",
         "image_url": "https://i.ibb.co/RvqjGDD/aboodi-vesakaran-ox-P3bl3x-QPI-unsplash.jpg",
         "price": 420,
-        "short_description": "A baby shower is a party centered on gift-giving to celebrate the delivery or expected birth of a child, and the transformation of a woman into a mother."
+        "short_description": "A baby shower is a party centered on gift-giving to celebrate the delivery or expected birth of a child, and the transformation of a woman into a mother.",
+        "long_description":"A baby shower is a joyous occasion held to celebrate an expecting parent or parents and their impending journey into parenthood. It's an event where friends, family, and loved ones come together to shower the expectant parents with well wishes, gifts, and support as they prepare for the arrival of a new baby.Invitations are sent out to guests, inviting them to the baby shower. The invitations often include details about the date, time, location, and theme of the event. ",
+        
+        "beach":"Baby showers often have a theme, such as gender reveal, storybook, nautical, or jungle. Decorations and party favors are themed accordingly, incorporating colors, motifs, and designs related to the chosen theme.The baby shower is typically held during the third trimester of the pregnancy, usually in the last two months before the due date. The date and time are selected to ensure the expectant parents are comfortable and able to fully participate.",
+        "tropical":"Baby showers can be hosted at various locations, including the host's home, a friend or family member's home, a community center, a park, or a rented event space.The guest list usually consists of close friends, family members, coworkers, and other acquaintances of the expecting parents. It's important to consider the preferences and interests of the expectant parents when creating the guest list.Guests often bring gifts for the baby and parents-to-be. These gifts can include baby clothes, blankets, diapers, baby gear, and other essential items needed for the baby's arrival.",
+        "bohemian":"Baby showers often include fun games and activities for guests to enjoy. Common games include baby bingo, diaper-changing contests, baby name games, and guessing the baby's birth date or weight.Food and beverages are typically provided for the guests. This can range from finger foods and appetizers to a full meal or buffet. Non-alcoholic drinks, mocktails, and themed refreshments are often served.The expectant parents often provide small favors or keepsakes to thank guests for attending. They may also send thank-you notes after the event expressing gratitude for the gifts and support."
+       
         
       }
     ]

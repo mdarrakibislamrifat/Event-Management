@@ -1,9 +1,9 @@
 
 
 const CardDetails = ({card}) => {
-    const {event_id,event_name,image_url,price,short_description,long_description,beach,tropical,bohemian,classic}=card || {};
+    const {event_id,bg_color,event_name,image_url,price,short_description,long_description,beach,tropical,bohemian,classic}=card || {};
     return (
-        <div>
+        <div style={{backgroundColor:bg_color}}>
             <img  src={image_url} alt="" />
             <p className="text-2xl font-bold">{event_name}</p>
             <p>{short_description}</p>
