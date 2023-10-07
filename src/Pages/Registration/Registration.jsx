@@ -1,11 +1,15 @@
 import { Link } from "react-router-dom";
 import { FaGoogle } from 'react-icons/fa';
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
+import toast from "react-hot-toast";
+import { GoogleAuthProvider } from "firebase/auth";
 
+const provider = new GoogleAuthProvider();
 const Registration = () => {
 
-const {createUser}=useContext(AuthContext);
+const {createUser,googleSignIn}=useContext(AuthContext);
+const [error,setError]=useState('');
 
 const handleRegister=e=>{
   e.preventDefault();
@@ -13,18 +17,31 @@ const handleRegister=e=>{
   const password=e.target.password.value;
  createUser(email,password)
  .then(result=>{
-  console.log(result.user)
+  toast.success('Successfully Register!')
  })
  .catch(error=>{
-  console.log(error)
+  setError(error.message)
  })
 }
 
+const handleGoogle=()=>{
+  googleSignIn(provider)
+  .then(result=>{
+    console.log(result.user);
+  })
+  .then(error=>{
+    console.log(error)
+  })
+}
 
 
     return (
-        <div className="relative flex flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none items-center">
+      
+        <div>
+          <p className="text-center text-red-600">{error}</p>
+          <div className="relative flex flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none items-center">
         <h4 className="block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+          
           Sign Up
         </h4>
         <p className="mt-1 block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
@@ -70,9 +87,10 @@ const handleRegister=e=>{
           </p>
         </form>
         <div className="flex items-center justify-center mt-4 bg-amber-400 p-2 rounded-lg">
-          <button className="flex items-center"><FaGoogle className="mr-2 "></FaGoogle> Sign In With Google</button>
+          <button onClick={handleGoogle} className="flex items-center"><FaGoogle className="mr-2 "></FaGoogle> Sign In With Google</button>
           </div>
       </div>
+        </div>
     );
 };
 

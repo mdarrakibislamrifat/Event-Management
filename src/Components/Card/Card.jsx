@@ -1,7 +1,11 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../Provider/AuthProvider";
 
 
 const Card = ({card}) => {
+  
+  
     const {event_id,bg_color,text_color,event_name,image_url,price,short_description}=card || {};
     return (
         <div style={{backgroundColor:bg_color}} className="relative flex w-full max-w-[48rem] flex-row rounded-xl   text-gray-700 shadow-md ">

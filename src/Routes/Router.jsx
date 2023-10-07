@@ -8,6 +8,7 @@ import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
 import Registration from "../Pages/Registration/Registration";
 import CardDetailsPage from "../Components/CardDetailsPage/CardDetailsPage";
+import PrivateRoute from "./PrivateRoute";
 
   const router = createBrowserRouter([
     {
@@ -31,7 +32,7 @@ import CardDetailsPage from "../Components/CardDetailsPage/CardDetailsPage";
         },
         {
           path:'/card/:event_id',
-          element:<CardDetailsPage></CardDetailsPage>,
+          element:<PrivateRoute><CardDetailsPage></CardDetailsPage></PrivateRoute>,
           loader:()=>fetch('/event.json')
         }
       ]
