@@ -31,16 +31,16 @@ const About = () => {
                 </svg>
               </div>
               <div className="p-6">
-                <h5 className="mb-4 text-lg font-bold">Maria Smith</h5>
+                <h5 className="mb-4 text-lg font-bold text-white">Maria Smith</h5>
                 <p className="mb-4 text-neutral-500 dark:text-neutral-300">
-                  Frontend Developer
+                  Event Planner
                 </p>
-                <ul className="mx-auto flex list-inside justify-center">
+                <ul className="mx-auto flex list-inside justify-center ">
                   <a href="#!" className="px-2">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
-                      className="h-4 w-4 text-primary dark:text-primary-400"
+                      className="h-4 w-4  text-white dark:text-primary-400"
                     >
                       <path
                         fill="currentColor"
@@ -52,7 +52,7 @@ const About = () => {
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
-                      className="h-4 w-4 text-primary dark:text-primary-400"
+                      className="h-4 w-4 text-white dark:text-primary-400"
                     >
                       <path
                         fill="currentColor"
@@ -64,7 +64,7 @@ const About = () => {
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
-                      className="h-3.5 w-3.5 text-primary dark:text-primary-400"
+                      className="h-3.5 w-3.5 text-white dark:text-primary-400"
                     >
                       <path
                         fill="currentColor"
@@ -99,15 +99,15 @@ const About = () => {
                 </svg>
               </div>
               <div className="p-6">
-                <h5 className="mb-4 text-lg font-bold">Darren Randolph</h5>
+                <h5 className="mb-4 text-lg font-bold text-white">Darren Randolph</h5>
                 <p className="mb-4 text-neutral-500 dark:text-neutral-300">
-                  Marketing expert
+                  Event manager
                 </p>
                 <ul className="mx-auto flex list-inside justify-center">
                   <a href="#!" className="px-2">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-4 w-4 text-primary dark:text-primary-400"
+                      className="h-4 w-4 text-white dark:text-primary-400"
                       fill="currentColor"
                       viewBox="0 0 24 24"
                     >
@@ -118,7 +118,7 @@ const About = () => {
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
-                      className="h-4 w-4 text-primary dark:text-primary-400"
+                      className="h-4 w-4 text-white dark:text-primary-400"
                     >
                       <path
                         fill="currentColor"
@@ -130,7 +130,7 @@ const About = () => {
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
-                      className="h-3.5 w-3.5 text-primary dark:text-primary-400"
+                      className="h-3.5 w-3.5 text-white dark:text-primary-400"
                     >
                       <path
                         fill="currentColor"
@@ -165,16 +165,16 @@ const About = () => {
                 </svg>
               </div>
               <div className="p-6">
-                <h5 className="mb-4 text-lg font-bold">Ayat Black</h5>
+                <h5 className="mb-4 text-lg text-white font-bold">Ayat Black</h5>
                 <p className="mb-4 text-neutral-500 dark:text-neutral-300">
-                  Web designer
+                  Event Mentor
                 </p>
                 <ul className="mx-auto flex list-inside justify-center">
                   <a href="#!" className="px-2">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
-                      className="h-4 w-4 text-primary dark:text-primary-400"
+                      className="h-4 w-4 text-white dark:text-primary-400"
                     >
                       <path
                         fill="currentColor"
@@ -186,7 +186,7 @@ const About = () => {
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
-                      className="h-3.5 w-3.5 text-primary dark:text-primary-400"
+                      className="h-3.5 w-3.5 text-white dark:text-primary-400"
                     >
                       <path
                         fill="currentColor"
@@ -198,7 +198,7 @@ const About = () => {
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
-                      className="h-4 w-4 text-primary dark:text-primary-400"
+                      className="h-4 w-4 text-white dark:text-primary-400"
                     >
                       <path
                         fill="currentColor"
@@ -221,11 +221,9 @@ const About = () => {
         <p className="mb-6 font-bold uppercase text-primary dark:text-primary-400">
           Features
         </p>
-        <h2 className="mb-6 text-3xl font-bold">Why is it so great?</h2>
+        <h2 className="mb-6 text-3xl font-bold">Why is it so great our event management?</h2>
         <p className="mb-16 ">
-          Nunc tincidunt vulputate elit. Mauris varius purus malesuada neque
-          iaculis malesuada. Aenean gravida magna orci, non efficitur est
-          porta id. Donec magna diam.
+        Event management is the application of project management to the creation and development of small and/or large-scale personal or corporate events such as festivals, conferences, ceremonies, weddings, formal parties, concerts, or conventions.
         </p>
       </div>
     </div>
@@ -243,7 +241,7 @@ const About = () => {
           <div className="ml-2 grow">
             <p className="mb-1 font-bold">Support 24/7</p>
             <p >
-              Pellentesque mollis, metus nec fringilla aliquam
+            24/7 customer support is a model where customers can get their issues resolved anytime they need assistance
             </p>
           </div>
         </div>
@@ -261,7 +259,7 @@ const About = () => {
           <div className="ml-2 grow">
             <p className="mb-1 font-bold">Tracking</p>
             <p >
-              Magna lacus iaculis elit, quis pharetra varius.
+            Event tracking is used in analytics, and is defined as the tracking of events a user undertakes while on a website.
             </p>
           </div>
         </div>
@@ -279,7 +277,7 @@ const About = () => {
           <div className="ml-2 grow">
             <p className="mb-1 font-bold">Reporting</p>
             <p>
-              Pellentesque varius ex vel consequat quis.
+            Event reporting involves producing a report after an event has concluded in order to assess whether the objectives of the event were met
             </p>
           </div>
         </div>
@@ -297,7 +295,7 @@ const About = () => {
           <div className="ml-2 grow">
             <p className="mb-1 font-bold">Analytics</p>
             <p>
-              Vestibulum gravida iaculis nisl, vel lobortis eros.
+            Event-based analytics is the method of tracking and analyzing interactions between users and your product, also known as events.
             </p>
           </div>
         </div>
@@ -315,7 +313,7 @@ const About = () => {
           <div className="ml-2 grow">
             <p className="mb-1 font-bold">Huge community</p>
             <p >
-              Praesent vulputate lacus bibendum augue .
+            a community event is an event that is based on public property, and either has attendees over 50,or blocks or reserves access to public right of way.
             </p>
           </div>
         </div>
@@ -333,7 +331,7 @@ const About = () => {
           <div className="ml-2 grow">
             <p className="mb-1 font-bold">Easy to use</p>
             <p >
-              Sed mauris ex, imperdiet sit amet nisl ac, ultrices.
+            An event website is practically a cost-free digital advertisement for the event you're organizing.
             </p>
           </div>
         </div>
@@ -351,7 +349,7 @@ const About = () => {
           <div className="ml-2 grow">
             <p className="mb-1 font-bold">Frequent updates</p>
             <p >
-              Aenean lectus ex, placerat id tellus in eros.
+            There's no set timetable for how often you should update or add website content.
             </p>
           </div>
         </div>
@@ -369,7 +367,7 @@ const About = () => {
           <div className="ml-2 grow">
             <p className="mb-1 font-bold">Responsive</p>
             <p>
-              Donec consequat orci quis volutpat imperdiet.
+            Well-thought-out event websites serve up some sweet benefits
             </p>
           </div>
         </div>
