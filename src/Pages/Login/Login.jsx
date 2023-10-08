@@ -27,9 +27,7 @@ const Login = () => {
 
   return (
     <div>
-      <div>
-        <p className="text-center text-red-500">{error}</p>
-      </div>
+      
       <div className="relative flex flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none items-center">
         <h4 className="block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
           Sign In
@@ -66,6 +64,9 @@ const Login = () => {
               </label>
             </div>
           </div>
+          <div>
+        <p className="text-center text-red-500">{error}</p>
+      </div>
 
           <button
             className="mt-6 block w-full select-none rounded-lg bg-amber-400 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white "
@@ -83,6 +84,7 @@ const Login = () => {
               Register Here
             </Link>
           </p>
+
         </form>
       </div>
     </div>

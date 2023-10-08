@@ -3,6 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
 const Navbar = () => {
   const { user,logOut } = useContext(AuthContext);
+  console.log(user)
 
   const handleSignOut=()=>{
     logOut()
@@ -22,7 +23,7 @@ const Navbar = () => {
             isPending
               ? "pending"
               : isActive
-              ? "text-red-500 underline font-bold"
+              ? "text-blue-500 underline font-bold"
               : ""
           }
         >
@@ -36,7 +37,7 @@ const Navbar = () => {
             isPending
               ? "pending"
               : isActive
-              ? "text-red-500 underline font-bold"
+              ? "text-blue-500 underline font-bold"
               : ""
           }
         >
@@ -50,7 +51,7 @@ const Navbar = () => {
             isPending
               ? "pending"
               : isActive
-              ? "text-red-500 underline font-bold"
+              ? "text-blue-500 underline font-bold"
               : ""
           }
         >
@@ -64,7 +65,7 @@ const Navbar = () => {
             isPending
               ? "pending"
               : isActive
-              ? "text-red-500 underline font-bold"
+              ? "text-blue-500 underline font-bold"
               : ""
           }
         >
@@ -78,7 +79,7 @@ const Navbar = () => {
             isPending
               ? "pending"
               : isActive
-              ? "text-red-500 underline font-bold"
+              ? "text-blue-500 underline font-bold"
               : ""
           }
         >
@@ -110,19 +111,20 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow text-amber-500 rounded-box w-52"
           >
             {links}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-2xl">Social Events</a>
+        <a className="btn btn-ghost normal-case text-2xl text-amber-500">EventBloom</a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{links}</ul>
+        <ul className="menu menu-horizontal px-1 text-amber-500">{links}</ul>
       </div>
       <div className="navbar-end">
+        
         {user ? (
-          <button onClick={handleSignOut} className="font-bold">Logout</button>
+          <button onClick={handleSignOut} className="font-bold text-amber-500">Logout</button>
         ) : (
           <Link to="/login">
             <button >Login</button>

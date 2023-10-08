@@ -5,7 +5,7 @@ const About = () => {
     <div className="container my-24 mx-auto md:px-6">
       <section className="mb-32 text-center">
         <h2 className="mb-12 text-3xl font-bold">
-          Meet the <u className="text-primary dark:text-primary-400">team</u>
+          Meet the <u className="text-primary dark:text-primary-400">Team</u>
         </h2>
 
         <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
@@ -13,14 +13,14 @@ const About = () => {
             <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
               <div className="relative overflow-hidden bg-cover bg-no-repeat">
                 <img
-                  src="https://mdbcdn.b-cdn.net/img/new/avatars/6.jpg"
-                  className="w-full rounded-t-lg"
+                  src="https://i.ibb.co/0nKvY6n/361587381-3758661557789739-8841199669191703801-n.jpg"
+                  className="w-full h-[450px] rounded-t-lg"
                 />
                 <a href="#!">
                   <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"></div>
                 </a>
                 <svg
-                  className="absolute text-white dark:text-neutral-700 left-0 bottom-0"
+                  className="absolute text-white dark:text-amber-500 left-0 bottom-0"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 1440 320"
                 >
@@ -31,7 +31,7 @@ const About = () => {
                 </svg>
               </div>
               <div className="p-6">
-                <h5 className="mb-4 text-lg font-bold text-white">Maria Smith</h5>
+                <h5 className="mb-4 text-lg font-bold text-white">Rifat</h5>
                 <p className="mb-4 text-neutral-500 dark:text-neutral-300">
                   Event Planner
                 </p>
@@ -80,15 +80,15 @@ const About = () => {
           <div className="mb-6 lg:mb-0">
             <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
               <div className="relative overflow-hidden bg-cover bg-no-repeat">
-                <img
-                  src="https://mdbcdn.b-cdn.net/img/new/avatars/8.jpg"
-                  className="w-full rounded-t-lg"
+                <img 
+                  src="https://i.ibb.co/MRv4VwN/371098457-3784733161849245-5628090038965612412-n.jpg"
+                  className="w-full h-[450px] rounded-t-lg"
                 />
                 <a href="#!">
                   <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"></div>
                 </a>
                 <svg
-                  className="absolute text-white dark:text-neutral-700  left-0 bottom-0"
+                  className="absolute text-white dark:text-amber-500  left-0 bottom-0"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 1440 320"
                 >
@@ -99,7 +99,7 @@ const About = () => {
                 </svg>
               </div>
               <div className="p-6">
-                <h5 className="mb-4 text-lg font-bold text-white">Darren Randolph</h5>
+                <h5 className="mb-4 text-lg font-bold text-white">Rakib</h5>
                 <p className="mb-4 text-neutral-500 dark:text-neutral-300">
                   Event manager
                 </p>
@@ -147,14 +147,14 @@ const About = () => {
             <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
               <div className="relative overflow-hidden bg-cover bg-no-repeat">
                 <img
-                  src="https://mdbcdn.b-cdn.net/img/new/avatars/15.jpg"
-                  className="w-full rounded-t-lg"
+                  src="https://i.ibb.co/GtMHf4L/272696661-3335816690074230-204438013193758038-n.jpg"
+                  className="w-full h-[450px] rounded-t-lg"
                 />
                 <a href="#!">
                   <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"></div>
                 </a>
                 <svg
-                  className="absolute text-white dark:text-neutral-700 left-0 bottom-0"
+                  className="absolute text-white dark:text-amber-500 left-0 bottom-0"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 1440 320"
                 >
@@ -165,7 +165,7 @@ const About = () => {
                 </svg>
               </div>
               <div className="p-6">
-                <h5 className="mb-4 text-lg text-white font-bold">Ayat Black</h5>
+                <h5 className="mb-4 text-lg text-white font-bold">Rohan</h5>
                 <p className="mb-4 text-neutral-500 dark:text-neutral-300">
                   Event Mentor
                 </p>
