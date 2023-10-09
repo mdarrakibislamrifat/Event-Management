@@ -20,8 +20,8 @@ const Home = () => {
       </div>
 
       {/* extra part one */}
-      <h2 className="text-4xl text-center font-bold underline mt-10">
-        Our Package
+      <h2 className="text-3xl text-center font-bold underline mt-10">
+        Our Packages
       </h2>
       <div  className="mt-10 flex-wrap gap-4 items-center justify-center lg:flex">
         {/* first card */}
@@ -433,6 +433,68 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </div>
+
+
+      {/* over footer */}
+      <h2 className="text-3xl font-bold text-center mt-10 underline">Growth our services </h2>
+      <div >
+
+      <div class="container my-24 mx-auto md:px-6">
+  
+  <section class="mb-32 text-center lg:text-left">
+    <div
+      class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+      <div class="flex flex-wrap items-center">
+        <div class="block w-full shrink-0 grow-0 basis-auto lg:flex lg:w-6/12 xl:w-4/12">
+          <img src="https://i.ibb.co/MRv4VwN/371098457-3784733161849245-5628090038965612412-n.jpg" alt="Trendy Pants and Shoes"
+            class="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" />
+        </div>
+        <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-8/12">
+          <div class="px-6 py-12 md:px-12">
+            <h2 class="display-5 mb-6 text-4xl font-bold text-white dark:text-primary-400">
+              Growth History
+            </h2>
+            <p class="mb-12 text-white dark:text-neutral-300">
+            Define what you aim to achieve with the event. This could be increased attendance, greater engagement, higher revenue, or increased brand exposure.Review previous events to identify what worked well and what didn't. Use this analysis to make informed decisions for the upcoming event.Allocate a budget and determine the resources required for the event based on the expected growth. This includes venue costs, marketing expenses, staffing, technology, and any other necessities.
+            </p>
+
+            <div class="grid md:grid-cols-3 lg:gap-x-12">
+              <div class="mb-12 md:mb-0">
+                <h2 class="mb-4 text-3xl font-bold text-white dark:text-primary-400">
+                  1000
+                </h2>
+                <h5 class="mb-0 text-lg font-medium text-white dark:text-neutral-300">
+                  Happy customers
+                </h5>
+              </div>
+
+              <div class="mb-12 md:mb-0">
+                <h2 class="mb-4 text-3xl font-bold text-white dark:text-primary-400">
+                  70%
+                </h2>
+                <h5 class="mb-0 text-lg font-medium text-white dark:text-neutral-300">
+                  Growth
+                </h5>
+              </div>
+
+              <div class="">
+                <h2 class="mb-4 text-3xl font-bold text-white dark:text-primary-400">
+                  49
+                </h2>
+                <h5 class="mb-0 text-lg font-medium text-white dark:text-neutral-300">
+                  Projects
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+</div>
+
       </div>
     </div>
   );
