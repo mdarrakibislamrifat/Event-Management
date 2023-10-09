@@ -25,7 +25,7 @@ const Home = () => {
       </h2>
       <div  className="mt-10 flex-wrap gap-4 items-center justify-center lg:flex">
         {/* first card */}
-        <div >
+        <div className="ml-12 lg:mr-0">
           <div data-aos="flip-right" class="relative flex w-full max-w-[20rem] flex-col rounded-xl bg-gradient-to-tr from-amber-600 to-amber-400 bg-clip-border p-8 text-white shadow-md shadow-pink-500/40">
             <div class="relative m-0 mb-8 overflow-hidden rounded-none border-b border-white/10 bg-transparent bg-clip-border pb-8 text-center text-gray-700 shadow-none">
               <p class="block font-sans text-sm font-normal uppercase leading-normal text-white antialiased">
@@ -163,6 +163,7 @@ const Home = () => {
         </div>
         {/* second card */}
 
+        <div className="ml-12 lg:mr-0">
         <div data-aos="flip-right" class="relative flex w-full max-w-[20rem] flex-col rounded-xl bg-gradient-to-tr from-amber-600 to-amber-400 bg-clip-border p-8 text-white shadow-md shadow-pink-500/40">
           <div class="relative m-0 mb-8 overflow-hidden rounded-none border-b border-white/10 bg-transparent bg-clip-border pb-8 text-center text-gray-700 shadow-none">
             <p class="block font-sans text-sm font-normal uppercase leading-normal text-white antialiased">
@@ -297,7 +298,8 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div>
+        </div>
+        <div className="ml-12 lg:mr-0">
           <div data-aos="flip-right" class="relative flex w-full max-w-[20rem] flex-col rounded-xl bg-gradient-to-tr from-amber-600 to-amber-400 bg-clip-border p-8 text-white shadow-md shadow-pink-500/40">
             <div class="relative m-0 mb-8 overflow-hidden rounded-none border-b border-white/10 bg-transparent bg-clip-border pb-8 text-center text-gray-700 shadow-none">
               <p class="block font-sans text-sm font-normal uppercase leading-normal text-white antialiased">
@@ -440,7 +442,7 @@ const Home = () => {
       <h2 className="text-3xl font-bold text-center mt-10 underline">Growth our services </h2>
       <div >
 
-      <div class="container my-24 mx-auto md:px-6">
+      <div data-aos="flip-right" class="container lg: my-24 mx-auto md:px-6">
   
   <section class="mb-32 text-center lg:text-left">
     <div
