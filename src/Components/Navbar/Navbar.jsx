@@ -122,7 +122,13 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1 text-amber-500">{links}</ul>
       </div>
       <div className="navbar-end">
-        
+        <div className=" mr-2">
+          {user && <div className="flex h-[40px] items-center"><img className="rounded-full w-[50px] mr-2" src={user.photoURL} alt="" />
+          <p>{user.displayName}</p>
+          </div> 
+          
+          }
+        </div>
         {user ? (
           <button onClick={handleSignOut} className="font-bold text-amber-500">Logout</button>
         ) : (

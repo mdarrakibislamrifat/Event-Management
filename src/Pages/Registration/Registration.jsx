@@ -53,7 +53,7 @@ const handleGoogle=()=>{
   position="top-center"
   reverseOrder={false}
 />
-          <p className="text-center text-red-600">{error}</p>
+          
           <div className="relative flex flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none items-center">
         <h4 className="block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
           
@@ -102,9 +102,11 @@ const handleGoogle=()=>{
             <Link className="font-medium text-amber-500 transition-colors hover:text-blue-700" to='/login'>Sign In Here</Link>
           </p>
         </form>
+        <p className="text-center text-red-600">{error}</p>
         <div className="flex items-center justify-center mt-4 bg-amber-400 p-2 rounded-lg">
           <button onClick={handleGoogle} className="flex items-center"><FaGoogle className="mr-2 "></FaGoogle> Sign In With Google</button>
           </div>
+          
       </div>
         </div>
     );

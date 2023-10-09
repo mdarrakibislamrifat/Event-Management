@@ -167,7 +167,7 @@ const About = () => {
               <div className="p-6">
                 <h5 className="mb-4 text-lg text-white font-bold">Rohan</h5>
                 <p className="mb-4 text-neutral-500 dark:text-neutral-300">
-                  Event Mentor
+                 Event Mentor
                 </p>
                 <ul className="mx-auto flex list-inside justify-center">
                   <a href="#!" className="px-2">
