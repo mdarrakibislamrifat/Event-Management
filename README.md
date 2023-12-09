@@ -6,4 +6,11 @@
 * Contact: Our number and email are shown on the contact page.There are four types of support these are Technical Support .Sales questions,press and bug reports.
 * About: On the about page we show three members and their names and positions.A lot has been described about why our event is the best.
 
-
+# Technology That I am used---
+* Html5
+* css3
+* tailwindcss
+* javascript
+* react.js
+* daisyui
+* VsCode
